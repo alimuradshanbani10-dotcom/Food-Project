@@ -1,0 +1,556 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background-color: rgb(223, 221, 221);
+}
+
+.whole {
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.background img {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.box {
+    height: 80vh;
+    align-items: center;
+    align-content: center;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background-color: #f8f8f8;
+
+}
+
+.navbar .logo {
+    padding-left: 70px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(161, 12, 12);
+    margin-bottom: -20px;
+    padding-bottom: 15px;
+    padding-top: -20px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-right: 50px;
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+
+.navbar ul li:hover {
+    cursor: pointer;
+    color: gray;
+
+}
+
+.navbar ul li {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.hero {
+    position: relative;
+    background-image: url(background.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.hero-text {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: -10px;
+    font-weight: 400;
+}
+
+.hero button {
+    margin-left: 170px;
+    padding: 10px 20px;
+    font-weight: 300;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.hero button:hover {
+    background-color: rgb(247, 48, 48);
+    color: white;
+}
+
+
+.left {
+    width: 20%;
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+.left label {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+
+.left label:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.left label input:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.left label input {
+    margin-right: 15px;
+    display: flex;
+}
+
+.right {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 5px;
+    display: grid;
+    grid: flex;
+    color: white;
+    font-size: large;
+}
+
+.images img {
+    width: 200px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.images img:hover {
+    cursor: pointer;
+    zoom: 103%;
+}
+
+.price {
+    display: flex;
+    color: white;
+}
+
+.price .p {
+    margin-top: -40px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.price .p button {
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+}
+
+.p button:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.price .p1 {
+    margin-top: -40px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.price .p1 .btn1 {
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+}
+
+.p1 .btn1:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.price .p2 {
+    margin-top: -40px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.price .p2 .btn2 {
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+}
+
+.p2 .btn2:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.price .p3 {
+    margin-top: -40px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.price .p3 .btn3 {
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+}
+
+.p3 .btn3:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+
+}
+
+.price .p4 {
+    margin-top: -40px;
+    margin-left: 60px;
+    font-size: 18px
+}
+
+.price .p4 .btn4 {
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+}
+
+.p4 .btn4:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.food {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 5px;
+    display: grid;
+    grid: flex;
+    color: white;
+    font-size: large;
+}
+
+.price1 {
+    color: white;
+}
+
+.image img {
+    width: 200px;
+    height: 240px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    margin-top: 10px;
+}
+
+.image img:hover {
+    cursor: pointer;
+    zoom: 103%;
+}
+
+.food .price1 {
+    display: flex;
+}
+
+.food .price1 {
+    margin-top: -40px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.price1 .q {
+    margin-top: -65px;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.price1 .q1 {
+    margin-top: -65px;
+    margin-left: 45px;
+    font-size: 18px;
+}
+
+.price1 .q2 {
+    margin-top: -65px;
+    margin-left: 45px;
+    font-size: 18px;
+}
+
+.price1 .q3 {
+    margin-top: -65px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+.price1 .q4 {
+    margin-top: -65px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+
+.price1 .q .btna {
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+}
+
+.q .btna:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.price1 .q1 .btnb {
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+}
+
+.q1 .btnb:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.price1 .q2 .btnc {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+}
+
+.q2 .btnc:hover:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.price1 .q3 .btnd {
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+}
+
+.q3 .btnd:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.price1 .q4 .btne {
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    margin-left: 30px;
+}
+
+.q4 .btne:hover {
+    cursor: pointer;
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.hero2 {
+    position: relative;
+    background-image: url(background2.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.hero-text2 {
+    position: absolute;
+    margin-top: 20px;
+    background-color: #c9c4c4;
+    width: 220px;
+    height: 260px;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.box2 {
+    height: 60vh;
+    align-items: center;
+    align-content: center;
+    background-size: cover;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+}
+
+.hero2 input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: 2px solid white;
+    background-color: white;
+
+}
+
+.hero2 button {
+    font-size: 16px;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+
+}
+
+.hero2 button:hover {
+    cursor: pointer;
+    background-color: rgb(218, 42, 42);
+}
+
+.last {
+    display: flex;
+    padding: 30px 10px;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.last .one {
+    display: block;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+
+.last .two {
+    display: block;
+    margin-top: 50px;
+    margin-left: 200px;
+    padding-bottom: 20px;
+}
+
+.last .three {
+    display: block;
+    margin-top: 50px;
+    margin-left: 230px;
+    padding-bottom: 20px;
+}
+
+.last .four {
+    display: block;
+    margin-top: 50px;
+    margin-left: 250px;
+    padding-bottom: 20px;
+}
+
+.last p {
+    font-size: 13px;
+    color: #c9c4c4;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.last p:hover {
+    cursor: pointer;
+    color: gray;
+}
